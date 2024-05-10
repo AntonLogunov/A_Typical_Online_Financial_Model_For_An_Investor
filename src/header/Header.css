@@ -1,0 +1,48 @@
+.container_for__header{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+.item__logo, .item__name{
+    display: flex;
+    align-items: center;
+}
+.item__logo p, .item__name p{
+    max-width: 400px;
+}
+.item2{
+    text-align: left;
+}
+.item__button{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.HeaderShareImg{
+    max-width: 40px;
+    max-height: 44px;
+}
+.HeaderDownLoadImg{
+    max-width: 32px;
+    max-height: 36px;
+}
+.item_wrap, .item_wrap1{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    text-decoration:none;
+    color: black;
+}
+@media(max-width: 1060px){
+    .item__name{
+        display: none;
+    }
+}
+@media(max-width: 790px){
+    .item__logo p{
+        display: none;
+    }
+}

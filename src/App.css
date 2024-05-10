@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Inter";
+  font-family: "Inter_Bold";
+  font-family: "Inter_Medium";
+  font-family: "Inter_Regular";
+  src: url(./fonts/Inter-Regular.woff) format("truetype");
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  background-color: #F5F5F5;
+  font-family: "Inter_Regular";
+}
+footer{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: 20px 0;
+}
+
+html, body, main, .main_div, #root{
+  height: 100%;
+}
+main{
+  width: 95%;
+}
+#root{
+  max-width: 1440px;
+  margin: 0 auto;
+}

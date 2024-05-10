@@ -1,0 +1,35 @@
+.section_screen__1{
+    margin-top: 180px;
+}
+.container_for__section__1{
+    min-width: 1440px;
+    margin: 0 auto;
+}
+.h1_section__1{
+    padding-top: 80px;
+    width: 90%;
+    font-size: 36px;
+    margin: 0 auto;
+    text-align: center;
+    color: #145134;
+}
+.wrap_button{
+    margin: 170px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.button_content{
+    width: 580px;
+    height: 170px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    background-color: #90AAA5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button_content:hover{
+    background-color: #145134;
+}
